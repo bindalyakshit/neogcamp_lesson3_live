@@ -4,10 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
+    <!-- CSS way 1: Style tag 
+        <style>
+        body{
+            color: red;
+        }
+    </style> -->
+    <!-- Third way of doing CSS: external link -->
+    <link href="styles.css" rel="stylesheet" />
 </head>
 <body>
-    <h1> Welcome  to YB's component Library</h1>
-    <p>I am attending neog.camp and I want to make a libraray which would make all my projects look good and consistent.</p>
+    <h1 id="lib-header"> Welcome  to YB's component Library</h1>
+    <!-- CSS way 2 style="color: red;" -->
+    <p class="para">I am attending neog.camp and I want to make a libraray which would make all my projects look good and consistent.</p>
 
     <hr>
 
@@ -17,7 +26,7 @@
 
     <h2>@containers</h2>
     <h3>fluid container</h3>
-    <div>This is a fluid continer and wit will go till the end of the page. To check this I will be writing a long sentence, so that we can understand difference between them.</div>
+    <div class="para">This is a fluid continer and wit will go till the end of the page. To check this I will be writing a long sentence, so that we can understand difference between them.</div>
 
     <h3>centered container</h3>
     <div>This is a centered container and iw will go till the specified width. To check this I will be writing a long sentence, so that we can understand difference between them.</div>
@@ -92,7 +101,7 @@
     </section>
 
     <hr>
-    
+
     <h2>@footer</h2>
 
     <footer>

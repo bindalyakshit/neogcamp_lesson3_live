@@ -1,0 +1,19 @@
+body{
+    color: rebeccapurple;
+}
+
+h1{
+    color: blue;
+}
+
+h2{
+    color: chartreuse;
+}
+
+#lib-header{
+    color: goldenrod;
+}
+
+.para{
+    color: hotpink;
+}
